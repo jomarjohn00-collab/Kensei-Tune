@@ -29,9 +29,8 @@ The YouTube API key is stored in this browser on this device. Restrict the key b
 
 NOTES
 -----
-- Spotify and YouTube playback are provided by their official embedded players. The existing KenseiTune demo player, themes, library, and other local features remain available.
+- Spotify and YouTube playback are provided by their official embedded players. The existing KenseiTune demo player, lyrics, themes, library, and other local features remain available.
 - External music players need an internet connection and may not work offline.
 - Music availability, ads, playback restrictions, and account requirements are controlled by the respective services.
 - If the app was already installed, close and reopen it after updating so the new service worker cache can activate.
-- Lyrics are found automatically from LRCLIB (lrclib.net) and matched by title, artist and song length. They follow the YouTube / YouTube Music player in Search. YouTube Music's own lyrics have no public API, so they can't be used directly.
-- Settings and your photo background stay on that device.
+- Settings, your photo background, and lyrics you add stay on that device.
